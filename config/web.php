@@ -11,6 +11,7 @@ $config = [
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm' => '@vendor/npm-asset',
+        '@api-utils' => '@vendor/damidevelopment/yii2-api-utils/src',
     ],
     'components' => [
         'request' => [
