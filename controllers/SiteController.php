@@ -36,6 +36,7 @@ class SiteController extends Controller
                     Yii::getAlias('@app/api/v1/controllers'),
                     Yii::getAlias('@app/api/v1/definitions'),
                     Yii::getAlias('@app/api/v1/resources'),
+                    Yii::getAlias('@api-utils/definitions'),
                 ],
             ],
         ];
