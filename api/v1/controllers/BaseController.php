@@ -85,6 +85,14 @@ use app\api\controllers\RestController;
  * )
  *
  * @SWG\Parameter(
+ *     name="Access-Token",
+ *     in="header",
+ *     required=true,
+ *     type="string",
+ *     description="Access token",
+ * )
+ *
+ * @SWG\Parameter(
  *     name="X-Timezone",
  *     in="header",
  *     required=false,
