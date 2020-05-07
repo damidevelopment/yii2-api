@@ -15,9 +15,9 @@
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.1.0",
-        "yii2mod/yii2-swagger": "*",
         "phpmetrics/phpmetrics": "^2.4",
-        "damidevelopment/yii2-api-utils": "^1.0"
+        "damidevelopment/yii2-api-utils": "^1.0",
+        "genxoft/yii2-oas3": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

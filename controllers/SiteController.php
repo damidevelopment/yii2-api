@@ -24,14 +24,12 @@ class SiteController extends Controller
                 'class' => 'yii\web\ErrorAction',
             ],
             'docs' => [
-                'class' => \yii2mod\swagger\SwaggerUIRenderer::class,
-                'restUrl' => Url::to(['site/json-schema']),
+                'class' => \genxoft\swagger\ViewAction::class,
+                'apiJsonUrl' => Url::to(['/site/json-schema'], true),
             ],
             'json-schema' => [
-                'class' => \yii2mod\swagger\OpenAPIRenderer::class,
-                // Тhe list of directories that contains the swagger annotations.
-                'cacheDuration' => 0,
-                'scanDir' => [
+                'class' => \genxoft\swagger\JsonAction::class,
+                'dirs' => [
                     Yii::getAlias('@app/api/definitions'),
                     Yii::getAlias('@app/api/v1/controllers'),
                     Yii::getAlias('@app/api/v1/definitions'),

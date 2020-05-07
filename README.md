@@ -5,8 +5,21 @@ REQUIREMENTS
 
 The minimum requirement by this project template that your Web server supports PHP 7.2.0.
 
+CREATE NEW PROJECT USING TEMPLATE
+------------
+
+### Install via Composer
+
+If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
+at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+
+```
+composer create-project --prefer-dist yiisoft/yii2-app-basic api
+```
+
 INSTALLATION
 ------------
+
 
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
